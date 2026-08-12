@@ -1,162 +1,776 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joharika Portfolio</title>
+
+    <title>K Joharika | Portfolio</title>
 
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ================= NAVBAR ================= -->
 
-    <header>
+    <nav class="navbar">
 
-        <h1>K JOHARIKA</h1>
+        <div class="nav-container">
 
-        <p>
-            9908524560 |
-            kjoharika@gmail.com |
-            <a href="https://github.com/joharika12" target="_blank">
-                GitHub
-            </a>
-        </p>
+            <h2 class="logo">K JOHARIKA</h2>
 
-        <p class="about">
-            Computer Science student with experience in Python,
-            AI-based applications, and web development.
-            Passionate about building innovative software solutions
-            and solving real-world problems through technology.
-        </p>
-
-        <!-- NAVBAR -->
-
-        <nav>
             <ul class="nav-links">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>K Joharika</h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p class="hero-text">
+                Computer Science undergraduate with experience in
+                AI-powered applications, full-stack development,
+                and problem-solving. Passionate about developing
+                scalable software solutions and AI-driven systems.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Projects
+                </a>
+
+                <!-- Replace with your resume link -->
+                <a href="https://drive.google.com/file/d/1ReoueQIfgDcm0gC3xorBiY2WQ-GGs-bM/view?usp=drive_link"
+                   target="_blank"
+                   class="btn secondary-btn">
+                    View Resume
+                </a>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="https://github.com/joharika12"
+                   target="_blank">
+                    GitHub
+                </a>
+
+                <!-- Replace with your LinkedIn link -->
+                <a href="https://www.linkedin.com/in/k-joharika/"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
+                <!-- Replace with your LeetCode link -->
+                <a href="https://leetcode.com/u/Joharika_12/"
+                   target="_blank">
+                    LeetCode
+                </a>
+
+            </div>
+
+        </div>
 
     </header>
 
-    <!-- EDUCATION -->
 
-    <section id="education">
+    <!-- ================= ABOUT ================= -->
 
-        <h2>Education</h2>
+    <section id="about">
 
-        <div class="card">
-            <h3>B.Tech in Computer Science and Engineering</h3>
-            <p>Vignan Institute of Technology and Science</p>
-            <p>2023 - Present | CGPA: 8.5</p>
-        </div>
+        <div class="section-container">
 
-        <div class="card">
-            <h3>Intermediate</h3>
-            <p>SR Junior College</p>
-            <p>2021 - 2023 | CGPA: 8.9</p>
+            <h2 class="section-title">About Me</h2>
+
+            <p class="about-text">
+                I am a Computer Science Engineering student with
+                experience in AI-powered applications, full-stack
+                development, and problem-solving.
+
+                I am passionate about developing scalable software
+                solutions and AI-driven systems while continuously
+                improving my technical and problem-solving skills.
+            </p>
+
         </div>
 
     </section>
 
-    <!-- PROJECTS -->
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="light-section">
+
+        <div class="section-container">
+
+            <h2 class="section-title">Technical Skills</h2>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <h3>Languages</h3>
+
+                    <p>
+                        Python • C++ • JavaScript • HTML • CSS
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Frameworks & Libraries</h3>
+
+                    <p>
+                        Node.js • React.js • Express.js • Flask
+                        • Streamlit • LangChain
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Databases</h3>
+
+                    <p>
+                        MongoDB • MySQL
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Tools</h3>
+
+                    <p>
+                        Git • GitHub • VS Code • Tableau
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Core Concepts</h3>
+
+                    <p>
+                        Data Structures & Algorithms • OOP
+                        • REST APIs • DBMS
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
 
     <section id="projects">
 
-        <h2>Projects</h2>
+        <div class="section-container">
 
-        <div class="card">
-            <h3>Capital Compass AI</h3>
+            <h2 class="section-title">Projects</h2>
 
-            <p>
-                Built an AI-powered platform for financial analysis
-                using Python, Streamlit, LangChain, and APIs.
-            </p>
-        </div>
 
-        <div class="card">
-            <h3>Exam Scheduling System</h3>
+            <div class="projects-grid">
 
-            <p>
-                Developed a web application using Flask
-                to generate conflict-free exam timetables.
-            </p>
-        </div>
 
-        <div class="card">
-            <h3>Student Networking Portal</h3>
+                <!-- VIBEMEET -->
 
-            <p>
-                Created a collaboration platform with authentication,
-                dashboards, study spaces, and event management.
-            </p>
+                <div class="project-card">
+
+                    <div class="project-top">
+
+                        <h3>VibeMeet</h3>
+
+                        <span>MERN Stack</span>
+
+                    </div>
+
+
+                    <p>
+                        A MERN-based event management platform with
+                        secure authentication, event registration,
+                        and role-based access.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Built responsive React interfaces.
+                        </li>
+
+                        <li>
+                            Integrated REST APIs for event
+                            registration and management.
+                        </li>
+
+                        <li>
+                            Designed MongoDB collections for
+                            scalable event and user management.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="tech-stack">
+
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+
+                    </div>
+
+
+                    <!-- Replace with your VibeMeet GitHub link -->
+
+                    <a href="https://github.com/Eventmanagers/backend.git"
+                       target="_blank"
+                       class="project-link">
+
+                        View on GitHub ->
+
+                    </a>
+
+                </div>
+
+
+                <!-- CAPITAL COMPASS AI -->
+
+                <div class="project-card">
+
+                    <div class="project-top">
+
+                        <h3>Capital Compass AI</h3>
+
+                        <span>AI</span>
+
+                    </div>
+
+
+                    <p>
+                        An AI-powered investment assistant using
+                        LangChain and financial APIs to generate
+                        market insights.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Designed a multi-agent architecture
+                            for financial analysis.
+                        </li>
+
+                        <li>
+                            Integrated APIs for market data,
+                            financial news, and analyst recommendations.
+                        </li>
+
+                        <li>
+                            Developed an interactive Streamlit
+                            dashboard for financial insights.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="tech-stack">
+
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>LangChain</span>
+                        <span>APIs</span>
+
+                    </div>
+
+
+                    <!-- Replace with your Capital Compass GitHub link -->
+
+                    <a href="https://github.com/joharika12/Capital-Compass-AI.git"
+                       target="_blank"
+                       class="project-link">
+
+                        View on GitHub ->
+
+                    </a>
+
+                </div>
+
+
+                <!-- EXAM SCHEDULING SYSTEM -->
+
+                <div class="project-card">
+
+                    <div class="project-top">
+
+                        <h3>Exam Scheduling System</h3>
+
+                        <span>Web App</span>
+
+                    </div>
+
+
+                    <p>
+                        A Flask-based scheduling platform designed
+                        to generate conflict-free examination
+                        timetables.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Implemented graph-based scheduling
+                            algorithms.
+                        </li>
+
+                        <li>
+                            Generated conflict-free examination
+                            timetables.
+                        </li>
+
+                        <li>
+                            Automated room allocation and
+                            timetable generation.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="tech-stack">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Algorithms</span>
+
+                    </div>
+
+
+                    <!-- Replace with your Exam Scheduling GitHub link -->
+
+                    <a href="https://github.com/joharika12/Exam-Scheduling-System.git"
+                       target="_blank"
+                       class="project-link">
+
+                        View on GitHub →
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
         </div>
 
     </section>
 
-    <!-- SKILLS -->
 
-    <section id="skills">
+    <!-- ================= EDUCATION ================= -->
 
-        <h2>Technical Skills</h2>
+    <section id="education" class="light-section">
 
-        <ul class="skill-list">
-            <li>Python</li>
-            <li>C/C++</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Flask</li>
-            <li>Git & GitHub</li>
-            <li>Tableau</li>
-        </ul>
+        <div class="section-container">
 
-    </section>
+            <h2 class="section-title">Education</h2>
 
-    <!-- ACHIEVEMENTS -->
 
-    <section id="achievements">
+            <div class="timeline">
 
-        <h2>Achievements</h2>
 
-        <div class="card">
-            <p>Top 3 position in NOVUS Hackathon</p>
-            <p>Top 5 position in HackVibe Hackathon</p>
-            <p>Won multiple technical competitions</p>
+                <div class="timeline-item">
+
+                    <h3>
+                        B.Tech in Computer Science and Engineering
+                    </h3>
+
+                    <h4>
+                        Vignan Institute of Technology and Science,
+                        Hyderabad
+                    </h4>
+
+                    <p>
+                        2023 – Present
+                    </p>
+
+                    <strong>
+                        CGPA: 8.5
+                    </strong>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <h3>
+                        Intermediate
+                    </h3>
+
+                    <h4>
+                        SR Junior College, Hyderabad
+                    </h4>
+
+                    <p>
+                        2021 – 2023
+                    </p>
+
+                    <strong>
+                        Percentage: 89.8%
+                    </strong>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <h3>
+                        SSC
+                    </h3>
+
+                    <h4>
+                        Dilsukhnagar Public School, Hyderabad
+                    </h4>
+
+                    <p>
+                        2021
+                    </p>
+
+                    <strong>
+                        CGPA: 10
+                    </strong>
+
+                </div>
+
+
+            </div>
+
         </div>
 
     </section>
 
-    <!-- CONTACT -->
 
-    <section id="contact">
+    <!-- ================= CERTIFICATIONS ================= -->
 
-        <h2>Contact</h2>
+    <section id="certifications">
 
-        <p>Email: kjoharika@gmail.com</p>
+        <div class="section-container">
 
-        <p>
-            GitHub:
-            <a href="https://github.com/joharika12" target="_blank">
-                github.com/joharika12
+            <h2 class="section-title">
+                Certifications
+            </h2>
+
+
+            <div class="cert-grid">
+
+
+                <div class="cert-card">
+
+                    <h3>
+                        Summer of AI Internship
+                    </h3>
+
+                    <p>
+                        VISWAM.AI • Swecha • Meta
+                    </p>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <h3>
+                        Design Fundamentals with AI
+                    </h3>
+
+                    <p>
+                        Adobe • Score: 100%
+                    </p>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <h3>
+                        Data Analytics Job Simulation
+                    </h3>
+
+                    <p>
+                        Deloitte Forage
+                    </p>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <h3>
+                        Programming Essentials in C
+                    </h3>
+
+                    <p>
+                        Cisco
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section id="achievements" class="light-section">
+
+        <div class="section-container">
+
+            <h2 class="section-title">
+                Achievements
+            </h2>
+
+
+            <div class="achievement-list">
+
+
+                <div class="achievement">
+
+                    <span>01</span>
+
+                    <p>
+                        Secured <strong>Global Rank 7211</strong>
+                        in TCS CodeVita Season 13.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <span>02</span>
+
+                    <p>
+                        <strong>Top 3 Finalist</strong>
+                        in NOVUS Hackathon conducted at
+                        Malla Reddy University.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <span>03</span>
+
+                    <p>
+                        <strong>Top 5 Finalist</strong>
+                        in HackVibe Hackathon at
+                        Vignan Institute of Technology.
+                    </p>
+
+                </div>
+
+
+                <div class="achievement">
+
+                    <span>04</span>
+
+                    <p>
+                        Recognized in multiple technical
+                        competitions for algorithmic
+                        problem-solving and AI-based innovation.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EXTRACURRICULAR ================= -->
+
+    <section id="extra">
+
+        <div class="section-container">
+
+            <h2 class="section-title">
+                Beyond Technology
+            </h2>
+
+
+            <div class="extra-grid">
+
+
+                <div class="extra-card">
+
+                    <h3>
+                        🏸 Badminton
+                    </h3>
+
+                    <p>
+                        Won 2nd Place in an Inter-College
+                        Badminton Tournament.
+                    </p>
+
+                </div>
+
+
+                <div class="extra-card">
+
+                    <h3>
+                        NSS Volunteer
+                    </h3>
+
+                    <p>
+                        Active participant in community
+                        service initiatives and outreach
+                        activities.
+                    </p>
+
+                </div>
+
+
+                <div class="extra-card">
+
+                    <h3>
+                        Community Outreach
+                    </h3>
+
+                    <p>
+                        Organized and coordinated
+                        community outreach events.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-container">
+
+            <h2 class="section-title">
+                Let's Connect
+            </h2>
+
+            <p>
+                Interested in opportunities, collaborations,
+                or discussing technology?
+            </p>
+
+
+            <a href="mailto:kjoharika@gmail.com"
+               class="email-btn">
+
+                Email Me
+
             </a>
-        </p>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:kjoharika@gmail.com">
+                    kjoharika@gmail.com
+                </a>
+
+
+                <a href="https://github.com/joharika12"
+                   target="_blank">
+
+                    GitHub
+
+                </a>
+
+
+                <!-- Replace with your LinkedIn -->
+
+                <a href="https://www.linkedin.com/in/k-joharika/"
+                   target="_blank">
+
+                    LinkedIn
+
+                </a>
+
+
+                <!-- Replace with your LeetCode -->
+
+                <a href="https://leetcode.com/u/Joharika_12/"
+                   target="_blank">
+
+                    LeetCode
+
+                </a>
+
+            </div>
+
+        </div>
 
     </section>
 
-    <!-- FOOTER -->
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
-        <p>© 2026 K JOHARIKA | Portfolio Website</p>
+
+        <p>
+            © 2026 K Joharika. Built with HTML & CSS.
+        </p>
+
     </footer>
 
+
 </body>
+
 </html>
+```
